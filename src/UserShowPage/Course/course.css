@@ -1,0 +1,53 @@
+.Courses{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem;
+}
+.Courses .Course {
+    box-shadow: 0 5px 15px aqua;
+    border-radius: 8px;
+    margin: 15px;
+}
+
+.Courses .Course img{
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+/* Modalka */
+
+.ModalKaPlus{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+}
+.ModalKaPlus .form{
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px aqua;
+    margin: 15PX;
+    animation: ModalKaPlus 1s ease;
+}
+
+@keyframes ModalKaPlus {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.ModalKaPlus .form .btn-warning{
+    float: right;
+    margin-bottom: 1rem;
+}
