@@ -31,3 +31,24 @@
 .AddCourseModal .AddCourseContext button{
     margin: 15px 0;
 }
+
+
+/* Login Modal */
+
+.ModalLogin{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ModalLogin .ContextLogin{
+    background: white;
+    padding: 30px 120px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px white;
+}

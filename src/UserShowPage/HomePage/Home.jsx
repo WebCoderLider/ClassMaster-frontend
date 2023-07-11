@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import './header.css'
 import Course from '../Course/Course'
+import Mentors from '../Mentors/Mentors'
 function Home() {
     return (
         <div>
@@ -27,12 +28,12 @@ function Home() {
                         <p>ClassMaster o'quv markazining rasmi web saytiga xush kelibsiz o'zingizga kerakli ma'lumotlarni pastdan topishingiz mumkin</p>
                         <button className='btn btn-warning'>Geting Stated</button>
                         <br />
-                        <i class="fa fa-angle-down" aria-hidden="true"></i>
+                        <i className="fa fa-angle-down" aria-hidden="true"></i>
                     </div>
                 </header>
             </div>
             <Course />
-
+            <Mentors />
         </div>
     )
 }

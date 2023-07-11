@@ -1,0 +1,17 @@
+.Mentor{
+    width: 96%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 7px 20px;
+    margin: 15px 25px;
+    border-radius: 8px;
+    box-shadow: -2px 2px 5px yellow;
+}
+.Mentor img{
+    max-width: 120px;
+    max-height: 120px;
+    height: 120px;
+    border-radius: 100%;
+}

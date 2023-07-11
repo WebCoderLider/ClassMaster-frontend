@@ -14,6 +14,7 @@ function Navbar() {
                             <li className="nav-item"><Link className="nav-link fw-bold text-dark style-italic" aria-current="page" to="/admin">mentors</Link></li>
                             <li className="nav-item"><Link className="nav-link fw-bold text-dark style-italic" to="/admin/courses">courses</Link></li>
                             <li className="nav-item"><Link className="nav-link fw-bold text-dark style-italic" to="/admin/students">students</Link></li>
+                            <li className="nav-item"><Link className="nav-link fw-bold text-dark style-italic" to="/admin/message">kursga yozilgalar</Link></li>
                         </ul>
                     </div>
                 </div>
