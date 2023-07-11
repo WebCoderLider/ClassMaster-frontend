@@ -61,9 +61,9 @@ function Mentors() {
                     <div>
                         <Navbar />
                         <div className="MentorAdd d-flex justify-content-end m-3">
-                            <button onClick={AddMentorButton} className="btn btn-warning"><i className="fa fa-user-plus" aria-hidden="true"></i> add mentor</button>
+                            <button onClick={AddMentorButton} className="btn btn-warning"><i class="fa fa-user-plus" aria-hidden="true"></i> add mentor</button>
                         </div>
-                        <table className="table">
+                        <table class="table">
                             <thead>
                                 <tr>
                                     <th className='p-2' scope="col">Ismi</th>
@@ -77,7 +77,7 @@ function Mentors() {
                                         <tr key={el.id}>
                                             <td className='p-2'>{el.mentor_name}</td>
                                             <td className='p-2'>{el.mentor_fan}</td>
-                                            <td className='p-2'><button onClick={() => deletementorbtn(el.id)} className='btn btn-danger'><i className="fa fa-trash" aria-hidden="true"></i> o'chirish</button></td>
+                                            <td className='p-2'><button onClick={() => deletementorbtn(el.id)} className='btn btn-danger'><i class="fa fa-trash" aria-hidden="true"></i> o'chirish</button></td>
                                         </tr>
                                     )) : ''
                                 }
