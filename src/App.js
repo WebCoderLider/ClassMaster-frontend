@@ -1,20 +1,19 @@
-import React, { useState } from 'react'
+import React from 'react'
 import Navbar from './Components/Navbar/Navbar'
-import Mentors from './Components/Mentors/Mentors'
-import {Routes, Route} from 'react-router-dom'
+import Header from './Components/Header/header'
+import './App.css'
+import Home from './Components/Home/Home'
+import { Route, Routes } from 'react-router-dom'
 import Courses from './Components/Courses/Courses'
-import Students from './Components/Students/Students'
-import Home from './UserShowPage/HomePage/Home'
-import CourseTyping from './Components/CourseTyping/CourseTyping'
+import Mentors from './Components/Mentors/Mentors'
+import Spinner from './Components/Spinner/Spinner'
 function App() {
   return (
-    <div>
+    <div className='container'>
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='/admin' element={<Mentors />} />
-        <Route path='/admin/courses' element={<Courses />} />
-        <Route path='/admin/students' element={<Students />} />
-        <Route path='/admin/message' element={<CourseTyping />} />
+        <Route path='/courses' element={<Courses />} />
+        <Route path='/mentors' element={<Mentors />} />
       </Routes>
     </div>
   )

@@ -1,0 +1,47 @@
+.oqutivchilartext {
+    color: #000;
+    font-family: Jua;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 44px;
+}
+.MentorsContext{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.MentorsContext .mentor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    padding: 5px 15px 5px 7px;
+    border-radius: 8px;
+    box-shadow: 0 10px 20px #ebe3e3;
+    margin: 15px;
+}
+
+.MentorsContext .mentor img{
+    max-width: 70px;
+    min-width: 70px;
+    max-height: 70px;
+    min-height: 70px;
+    border-radius: 100%;
+}
+
+.MentorsContext .mentor div{
+    padding: 0 50px 0 20px;
+}
+
+.MentorsContext .mentor h4{
+    font-weight: 800;
+    font-size: 1.4rem;
+    font-style: italic;
+}
+.MentorsContext .mentor h6{
+    font-size: 1.1rem;
+    font-style: italic;
+    opacity: 0.7;
+}

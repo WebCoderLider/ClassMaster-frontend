@@ -1,0 +1,124 @@
+.container .content nav .stroke {
+    width: 40px;
+    height: 1.5px;
+    opacity: 0.5;
+    background: #000;
+    display: inline-block;
+}
+
+.container .content nav {
+    display: flex;
+    align-items: center;
+}
+
+.container .content nav .cn {
+    margin: 0 20px;
+    font-family: Jua;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    opacity: 0.5;
+}
+
+.container .content h1 {
+    color: #000000;
+    font-family: Inter, sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+.container .content h1 span {
+    color: #F1C93B;
+}
+
+.container .content p {
+    color: #000;
+    font-family: Inter, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    opacity: 0.5;
+}
+
+.container .content .btnadd {
+    margin: 20px 0;
+}
+
+.container .content .btnadd button {
+    border-radius: 10px;
+    background: #F1C93B;
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    color: #FFF;
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.container .content .btnadd .btnStroke {
+    border-radius: 10px;
+    border: 1px solid #F1C93B;
+    background: none;
+    transition: all 0.5s;
+    color: #F1C93B;
+    margin: 0 10px;
+}
+
+.img img {
+    width: 500px;
+}
+
+.container .content .btnadd .btnStroke:hover {
+    color: white;
+    background: #F1C93B;
+    transition: all 0.5s;
+}
+
+@media (max-width: 1200px) {
+    .container .img img {
+        display: none;
+    }
+}
+
+@media (max-width: 700px) {
+    .container .content h1 {
+        color: #000000;
+        font-family: Inter, sans-serif;
+        font-size: 30px;
+        font-weight: 800;
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+        margin: 20px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .container .content h1 {
+        color: #000000;
+        font-family: Inter, sans-serif;
+        font-size: 16px;
+        font-weight: 800;
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+        margin: 20px 0;
+    }
+
+    .container .content p {
+        color: #000;
+        font-family: Inter, sans-serif;
+        font-size: 10px;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+        opacity: 0.5;
+    }
+
+    .container .content .btnadd button {
+        width: 200px;
+        margin: 20px 0px !important;
+    }
+}
