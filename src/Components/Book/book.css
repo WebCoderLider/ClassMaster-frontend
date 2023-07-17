@@ -1,0 +1,39 @@
+.Books {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Books .Book {
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 15px 15px 50px 0px rgba(0, 0, 0, 0.17);
+    padding: 10px;
+    margin: 15px;
+}
+
+.Books .Book img {
+    width: 278px;
+    height: 168.15521240234375px;
+    top: -6.868228912353516px;
+    left: 4451px;
+    border-radius: 15px;
+    margin: 0 0 10px 0;
+}
+
+.Books .Book .Book_body {
+    display: flex !important;
+    align-items: end;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+
+.Books .Book h5{
+    font-size: 1.7rem;
+    font-family: jua;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin: 0 10px 3px 0;
+}

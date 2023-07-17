@@ -25,7 +25,7 @@ function Mentors() {
                                 <h4>{el.mentor_name}</h4>
                                 <h6>{el.mentor_fan}</h6>
                             </div>
-                            <a href={`tel:${el.mentor_phone}`}><button className='btn btn-outline-warning'><i class="fa fa-phone" aria-hidden="true"></i></button></a>
+                            <a href={`tel:${el.mentor_phone}`}><button className='btn btn-outline-warning'><i className="fa fa-phone" aria-hidden="true"></i></button></a>
                         </div>
 
                     )) : <div><Spinner /></div>

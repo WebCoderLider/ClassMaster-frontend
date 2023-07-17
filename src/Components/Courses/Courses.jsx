@@ -50,7 +50,7 @@ function Courses() {
 return (
     <div>
         <Navbar />
-        <h3 className='text-left fw-bold my-3 text-dark'><i class="fa fa-edit mx-2" aria-hidden="true"></i> KURSLARIMIZ</h3>
+        <h3 className='text-left fw-bold my-3 text-dark'><i className="fa fa-edit mx-2" aria-hidden="true"></i> KURSLARIMIZ</h3>
 
         <div className="row">
 
@@ -61,7 +61,7 @@ return (
                             <div className="card-body">
                                 <h5 className="card-title">{el.title}</h5>
                                 <p className="card-text">{el.about}</p>
-                                <button className="mx-2 btn btn-warning" onClick={() => qoshilishbtn(el.id)}><i class="fa fa-plus" aria-hidden="true"></i></button>
+                                <button className="mx-2 btn btn-warning" onClick={() => qoshilishbtn(el.id)}><i className="fa fa-plus" aria-hidden="true"></i></button>
                                 <button className="mx-2 btn btn-warning" onClick={() => courseaboutbtncliked(el.id)}>about</button>
                             </div>
                         </div>
@@ -73,8 +73,8 @@ return (
                 qmodal ? (
                     <div className="QoshilishModal">
                         <div className="Form">
-                            <h4 onClick={qoshilishbtn}><i class="fa fa-close" aria-hidden="true"></i></h4>
-                            <h6 className='text-left fw-bold'><i class="fa-regular fa-pen-to-square mx-3"></i>kursga qoshilish</h6>
+                            <h4 onClick={qoshilishbtn}><i className="fa fa-close" aria-hidden="true"></i></h4>
+                            <h6 className='text-left fw-bold'><i className="fa-regular fa-pen-to-square mx-3"></i>kursga qoshilish</h6>
                             <input type="text" ref={username} placeholder='Ismingizni yozing...' className="my-3 form-control" />
                             <input type="number" ref={number} placeholder='Telefon raqamingizni yozing' className="my-3 form-control" />
                             <input type="text" ref={fan} disabled value={onemodal.title} className="my-3 form-control" style={{ cursor: 'no-drop' }} />
@@ -88,7 +88,7 @@ return (
                 courseabout ? (
                     <div className="CourseAboutModal">
                         <div className="Form">
-                            <h3 onClick={courseaboutbtncliked}><i class="fa fa-close" aria-hidden="true"></i></h3>
+                            <h3 onClick={courseaboutbtncliked}><i className="fa fa-close" aria-hidden="true"></i></h3>
                             <h4 className='fw-bold'>{onemodal.title}</h4>
                             <h6>dars davomiyligi: {onemodal.dars_vaqtari}</h6>
                             <h6>ustoz: {onemodal.ustoz}</h6>
