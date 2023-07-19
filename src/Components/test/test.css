@@ -1,0 +1,30 @@
+.fanlar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 26px 15px 20px 15px;
+}
+
+.fanlar .fan {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 150px;
+    border: 1px solid #dbf73c;
+    cursor: pointer;
+    transition: all 0.3s;
+    border-radius: 8px;
+    margin: 15px;
+}
+
+.fanlar .fan:hover {
+    transition: all .2s;
+    box-shadow: 0 3px 35px #dbf73c;
+}
+
+.fanlar a{
+    text-decoration: none;
+    color: inherit;
+}

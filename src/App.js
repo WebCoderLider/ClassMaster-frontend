@@ -6,8 +6,9 @@ import Home from './Components/Home/Home'
 import { Route, Routes } from 'react-router-dom'
 import Courses from './Components/Courses/Courses'
 import Mentors from './Components/Mentors/Mentors'
-import Spinner from './Components/Spinner/Spinner'
 import Book from './Components/Book/Book'
+import Test from './Components/test/test'
+import Testone from './Components/test/testone/testone'
 function App() {
   return (
     <div className='container'>
@@ -16,6 +17,8 @@ function App() {
         <Route path='/courses' element={<Courses />} />
         <Route path='/mentors' element={<Mentors />} />
         <Route path='/library' element={<Book />} />
+        <Route path='/test' element={<Test />} />
+        <Route path='/test/title' element={<Testone />} />
       </Routes>
     </div>
   )
